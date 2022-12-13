@@ -642,7 +642,9 @@ name = "srp_sound_website"
 version = "0.1.0"
 dependencies = [
  "getrandom",
+ "gloo",
  "rand",
+ "wasm-bindgen",
  "web-sys",
  "yew",
 ]

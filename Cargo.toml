@@ -7,4 +7,6 @@ edition = "2021"
 yew = { version = "0.20.0", features = ["csr"] }
 rand = "0.8.5"
 getrandom = { version = "0.2", features = ["js"] }
-web-sys = { version = "0.3.60" }
+web-sys = { version = "0.3.60", features = ["HtmlAudioElement"] }
+wasm-bindgen = "0.2.83"
+gloo = "0.8.0"
