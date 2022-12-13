@@ -769,7 +769,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('srp_sound_website-8d9387fed5ba7463_bg.wasm', import.meta.url);
+        input = new URL('srp_sound_website-230df8183300c622_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
