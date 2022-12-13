@@ -32,7 +32,7 @@ fn App() -> Html {
                         " " => {
                             let player = gloo::utils::document()
                                 .get_element_by_id("player")
-                                .expect_throw("editor should exist")
+                                .expect_throw("player should exist")
                                 .dyn_into::<HtmlAudioElement>()
                                 .expect_throw("element should be an audio");
                             if player.paused() {
